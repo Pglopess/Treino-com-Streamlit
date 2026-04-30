@@ -11,7 +11,7 @@ Dashboard interativo construído com Streamlit, consumindo dados de uma API Fast
 
 ## Status
 - [x] Estrutura do projeto
-- [ ] Dashboard conectado à API
+- [x] Dashboard conectado à API
 - [ ] Deploy da API
 - [ ] Deploy do dashboard
 
