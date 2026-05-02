@@ -1,7 +1,11 @@
 import requests
 import streamlit as st
+from dotenv import load_dotenv
+import os
 
-BASE_URL = "http://localhost:8000"
+load_dotenv()
+
+BASE_URL = os.getenv("API_URL", "http://localhost:8000")
 
 @st.cache_data(ttl=60)
 def get_pilotos(nacionalidade: str = None):
