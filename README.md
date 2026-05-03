@@ -1,6 +1,6 @@
 # Dashboard FastAPI 
 
-Dashboard interativo construído com Streamlit, consumindo dados de uma API FastAPI sobre Fórmula 1 criada anteriormente.
+Dashboard interativo construído com Streamlit com foco em aprendizado, consumindo dados de uma API FastAPI sobre Fórmula 1 criada anteriormente.
 
 > Projeto em desenvolvimento
 
