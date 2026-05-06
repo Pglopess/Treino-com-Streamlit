@@ -8,7 +8,7 @@ from utils.api_client import get_pilotos
 
 st.title("👥 Visão Geral — Pilotos")
 
-# --- Busca os dados ---
+# --- Busca de dados ---
 try:
     pilotos = get_pilotos()
     df = pd.DataFrame(pilotos)
@@ -16,7 +16,7 @@ except Exception as e:
     st.error(f"Erro ao conectar na API: {e}")
     st.stop()
 
-# --- Métricas no topo ---
+# --- Métricas ---
 col1, col2 = st.columns(2)
 col1.metric("Total de pilotos", len(df))
 col2.metric("Nacionalidades distintas", df["nacionalidade"].nunique())
