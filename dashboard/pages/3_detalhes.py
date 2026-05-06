@@ -35,7 +35,7 @@ st.divider()
 st.subheader("Aparições no Top 10 histórico")
 
 try:
-    artilheiros = get_artilheiros()  # sem filtro = histórico completo
+    artilheiros = get_artilheiros() 
     df_art = pd.DataFrame(artilheiros)
     df_art["nome_completo"] = df_art["nome"] + " " + df_art["sobrenome"]
 
