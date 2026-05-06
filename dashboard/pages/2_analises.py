@@ -44,7 +44,7 @@ st.divider()
 st.subheader("Evolução de Pontos por Temporada")
 
 try:
-    equipes = get_equipes()  # sem filtro — retorna todas as temporadas
+    equipes = get_equipes()  
     df_eq = pd.DataFrame(equipes)
 
     fig2 = px.line(
