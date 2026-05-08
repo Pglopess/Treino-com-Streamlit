@@ -16,4 +16,4 @@ Dashboard interativo construído com Streamlit com foco em aprendizado, consumin
 - [ ] Deploy do dashboard
 
 ## Como rodar localmente
-*(instruções em breve)*
+*(instruções serão adicionadas em breve)*
