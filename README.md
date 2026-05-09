@@ -12,8 +12,6 @@ Dashboard interativo construído com Streamlit com foco em aprendizado, consumin
 ## Status
 - [x] Estrutura do projeto
 - [x] Dashboard conectado à API
-- [ ] Deploy da API
-- [ ] Deploy do dashboard
 
 ## Como rodar localmente
 *(instruções serão adicionadas em breve)*
