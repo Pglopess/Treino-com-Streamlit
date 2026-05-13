@@ -9,9 +9,5 @@ Dashboard interativo construído com Streamlit com foco em aprendizado, consumin
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
-## Status
-- [x] Estrutura do projeto
-- [x] Dashboard conectado à API
-
 ## Como rodar localmente
 *(instruções serão adicionadas em breve)*
